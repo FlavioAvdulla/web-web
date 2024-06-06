@@ -10,7 +10,7 @@
 }
 
 body {
-    background-image: url(images/hotel.jpg);
+    background-image: url(images/hotel_blur.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -53,7 +53,7 @@ h1 {
     text-align: center;
     padding-left: 47px;
     padding-right: 50px;
-    text-align: justify;
+    margin-top: 100px;
 
 
 }
@@ -65,7 +65,6 @@ p {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    text-align:justify;
 }
 
 a {
@@ -85,14 +84,15 @@ nav a {
 .photos {
     display:block;
     justify-content: space-between;
+    padding-left: 70px;
+
 }
 
 .photos img {
-    width: 25%;
+    width: 32%;
     height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    padding-right: 1px;
+
+    
     /*border: 2px solid #ddd;
     border-radius: 5px;*/
 }
