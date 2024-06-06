@@ -9,13 +9,6 @@
     
 }
 
-.frame {
-    width: 500px;
-    height: auto;
-    padding-right: 600px;
-    
-}
-
 body {
     background-image: url(images/hotel.jpg);
     background-size: cover;
@@ -61,8 +54,8 @@ h1 {
     padding-left: 47px;
     padding-right: 50px;
     text-align: justify;
-    margin-left: 700px;
-    margin-top: 90px;
+
+
 }
 
 p {
@@ -72,8 +65,7 @@ p {
     text-align: center;
     padding-left: 50px;
     padding-right: 50px;
-    text-align: justify;
-    margin-left: 700px;
+    text-align:justify;
 }
 
 a {
@@ -88,4 +80,19 @@ nav a {
     padding-left: 39px;
     padding-right: 39px;
     
+}
+
+.photos {
+    display:block;
+    justify-content: space-between;
+}
+
+.photos img {
+    width: 25%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 1px;
+    /*border: 2px solid #ddd;
+    border-radius: 5px;*/
 }
