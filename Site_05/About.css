@@ -1,0 +1,91 @@
+.image1 {
+    margin-top: 14px;
+}
+
+.image2 {
+    width: 500px;
+    height: auto;
+    padding-right: 600px;
+    
+}
+
+.frame {
+    width: 500px;
+    height: auto;
+    padding-right: 600px;
+    
+}
+
+body {
+    background-image: url(images/hotel.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+header {
+    height: 118px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+nav {
+    background-color:rgba(235, 91, 7, 0.69);
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-top: 30px;
+}
+
+main {
+    height: 400px;
+    width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1024;
+}
+
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    padding-left: 47px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-left: 700px;
+    margin-top: 90px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-left: 700px;
+}
+
+a {
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+nav a {
+    text-decoration: none;
+    padding-left: 39px;
+    padding-right: 39px;
+    
+}
