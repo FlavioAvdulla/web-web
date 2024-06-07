@@ -44,7 +44,11 @@ main {
     margin-left: auto;
     margin-right: auto;
     width: 1024;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
 }
+
 
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -107,4 +111,33 @@ button {
     padding-bottom: 10px;
     margin-top: 37px;
 
+}
+
+.footer {
+    background-color: #eb5b07b0;
+    margin-top: 35px;
+    padding-top: 8px;
+    padding-bottom: 9px;
+    text-align: center;
+    
+}
+
+footer p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10pt;
+    font-weight: lighter;
+    color: white;
+
+    
+}
+
+.map-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+iframe {
+     width: 80%;
+     height: 300px;
+     border: 0;
 }
