@@ -2,13 +2,6 @@
     margin-top: 14px;
 }
 
-.image2 {
-    width: 500px;
-    height: auto;
-    padding-right: 600px;
-    
-}
-
 body {
     background-image: url(images/hotel_blur.jpg);
     background-size: cover;
@@ -16,12 +9,43 @@ body {
     background-position: center;
 }
 
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12 px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: rgba(235, 91, 7, 0.69);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+    
+}
 header {
     height: 118px;
-    width: 900px;
+    width: 700px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+    
+}
+
+input[type=submit]:hover {
+    background-color: rgba(170, 62, 0, 0.69);
+    
+}
+
+.container {
+
+    padding: 20px;
+    
 }
 
 nav {
@@ -30,6 +54,7 @@ nav {
     padding-top: 8px;
     padding-bottom: 8px;
     margin-top: 30px;
+    
 }
 
 main {
@@ -85,60 +110,5 @@ nav a {
     
 }
 
-.photos {
-    display:block;
-    justify-content: space-between;
-    padding-left: 70px;
 
-}
 
-.photos img {
-    width: 32%;
-    height: auto;
-    
-
-    
-    /*border: 2px solid #ddd;
-    border-radius: 5px;*/
-}
-
-button {
-    background-color: rgba(235, 91, 7, 0.69);
-    border: none;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    margin-top: 37px;
-
-}
-
-.footer {
-    background-color: #eb5b07b0;
-    margin-top: 35px;
-    padding-top: 8px;
-    padding-bottom: 9px;
-    text-align: center;
-    
-}
-
-footer p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 10pt;
-    font-weight: lighter;
-    color: white;
-
-    
-}
-
-.map-container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding-top: 20px;
-}
-
-iframe {
-     width: 80%;
-     height: 300px;
-     border: 0;
-}
